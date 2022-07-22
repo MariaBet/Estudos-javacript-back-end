@@ -1,0 +1,16 @@
+var cargaHorarariaSemanal = 44;
+var saldoHoras = 0;
+
+var horasTrabalhadas = prompt("Informe o total de horas trabalhadas do funcionário nessa semana", "Digite aqui");
+
+
+saldoHoras = horasTrabalhadas - cargaHorarariaSemanal;
+
+if(saldoHoras > 0){
+    alert("O funcionário fez" + saldoHoras+ "Horas(s) extra(s) nesta semana");
+}else if(saldoHoras < 0){
+    alert("O funcionário está devendo"+(saldoHoras*-1)+"Horas(s) nesta semana");
+}else{
+    alert("o funcionário não possui hora extra essa semana")
+}
+
