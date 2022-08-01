@@ -12,3 +12,7 @@ console.log(emogi);
 
 const senha = "minhaSenha123"
 console.log("Minha senha tem " + senha.length + " caracteres")
+
+const citação = "Meu nome é ";
+const meuNome = "Maria";
+console.log(citação + meuNome);
