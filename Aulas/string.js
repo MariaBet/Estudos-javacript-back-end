@@ -15,4 +15,6 @@ console.log("Minha senha tem " + senha.length + " caracteres")
 
 const citação = "Meu nome é ";
 const meuNome = "Maria";
-console.log(citação + meuNome);
+const minhaCidade = "Rio de Janeiro";
+
+console.log(citação + meuNome +" E minha cidade é " + minhaCidade );
